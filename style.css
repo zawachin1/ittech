@@ -1,0 +1,63 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: #ffffee;/* フォントの色 */
+  font-size: 70px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  height: 320px;/* 高さ */
+  padding-top: 40px;/* 上がわの余白 */
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-color: #003b46;/* 背景画像 */
+  background-size:cover;
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  background-position: top center;/* 背景の位置 */
+  height: 400px;/* 高さ */
+  padding-top: 50px;/* 上がわの余白 */
+}
+
+.souhoukou {
+  height: 300px;
+  margin: 20px;
+  background-image: url(img/souhoukou.jpg);
+  background-position: center;
+}
+
+.keisokuseigyo {
+  height: 300px;
+  margin: 20px;
+  background-image: url(img/keisokuseigyo.jpg);
+  background-position: center;
+}
+
+/* 段落 */
+.midasi{
+  margin-top:170px;
+  color: #ffffff;
+  font-size: 50px;
+  float: right;
+}
+
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #003b46;
+  color: #ffffff;
+}
