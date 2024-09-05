@@ -34,14 +34,14 @@ header {
 .souhoukou {
   height: 300px;
   margin: 20px;
-  background-image: url(img/souhoukou.jpg);
+  background-image: url(souhoukou.jpg);
   background-position: center;
 }
 
 .keisokuseigyo {
   height: 300px;
   margin: 20px;
-  background-image: url(img/keisokuseigyo.jpg);
+  background-image: url(keisokuseigyo.jpg);
   background-position: center;
 }
 
